@@ -1,0 +1,765 @@
+                                     /* POUR TOUTES LES PAGES */
+                                     
+           
+.baseBody {                                   
+	background-image: url(image/neige-extra.jpg); 
+	background-attachment: fixed; 
+	background-repeat: no-repeat; 
+	backgroung-position: 100%;
+	margin: 0%;
+}                               
+
+.titre {
+ 	color: #186382; 
+ 	margin-top: 20px;  	
+ 	text-align: center; 	
+ 	font-weight: 16px; 
+ 	font-family: 'Varela Round', sans-serif;
+ 	}  
+ .titreForm {
+ 	color: white; 
+ 	margin-top: 20px;  	
+ 	text-align: center; 	
+ 	font-weight: 16px; 
+ 	font-family: 'Varela Round', sans-serif;
+ 	}  
+.hautPage  {
+	margin-top: 4%; 
+	margin-left: 20%
+}   
+                  
+/*FOOTER _____________________________________________________________________*/
+
+footer{
+	background-color:#222222;
+    padding: 60px 0px;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:50px;
+}
+
+footer ul li{
+    float:left;
+}
+
+footer ul li a{
+	color:#b1aca1;
+    padding:20px;
+}
+
+footer ul li a:hover{
+	color:#7dabdb;
+	text-decoration:none;
+}
+
+.footer-top{
+	padding-bottom:50px;
+	
+}
+
+.footer-top .fa{
+    font-size:18px;
+    color: #FFF;
+    padding-right:10px;
+   
+}
+
+.footer-top a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+.footer-top .col-lg-2:hover .fa , .footer-top .col-lg-2:hover a{
+    color:#7dabdb;
+}
+
+.copyright{
+    background-color:#FFFAFA;
+   
+}
+
+.copyright p{
+	font-size:12px;
+	padding:15px 0 10px 0;
+	text-align: center;
+	color: black;
+}
+
+/*FIN FOOTER_________________________________________________________________________________*/
+
+
+
+
+                                       /*INDEX.HTML => CSS*/
+                                       
+                                       
+                                       
+/* SECTION ____________________________________________________________________*/                                          
+#section2Margin {
+	margin-top: 30px; 
+	margin-bottom: 30px;
+}                                     
+                                       
+#section1Margin {
+	margin-top: 30px;
+}       
+/* FIN SECTION ____________________________________________________________________*/
+                           
+/* ASIDE STYLE -------------------------------------------------------------------*/                                    
+#aside {
+	margin-top: 7%; 
+	margin-bottom: 3%;
+}  
+#asideTexte {
+	color: #186382; font-size: 20px; 
+	font-family: 'Varela Round', sans-serif; 
+	text-align: center;
+}                                
+/*  fin ASIDE STYLE -------------------------------------------------------------------*/                                      
+                                       
+/* NOUS TROUVER google map__________________________________________________________*/
+#h5 {
+	color: #186382; 
+	text-align: center; 
+	font-family: 'Varela Round', sans-serif;
+}
+#fondGoogle {
+	background-color: white;
+}
+/* fin NOUS TROUVER google map__________________________________________________________*/
+
+
+/* ETE ET HIVER--------------------------------------------------------------*/
+h6 {
+	color: black; 
+	font-family: 'Varela Round', sans-serif; 
+	margin-left: 50%; 
+	margin-top: 5%;
+}
+/* FIN ETE ET HIVER--------------------------------------------------------------*/
+
+/*CARTE INDEX____________________________________________________________________________*/
+
+#imgCarte4 {
+	border-radius: 100%; 
+	width: 70%;
+}
+
+.carteShadow {
+	box-shadow:20px 20px 50px 10px grey;
+}
+#carteGoogle {
+	background-color: white; 
+	box-shadow: 10px 10px 50px 20px grey inset;
+}
+.card {
+  padding-top: 20px;
+  margin: 10px 0 20px 0;
+  background-color: #ffffff;
+  border: 1px solid #d8d8d8;
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+     -moz-border-radius: 3px;
+          border-radius: 3px;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  box-shadow: 5px 10px 20px 10px grey inset;
+}
+
+
+.card.hovercard {
+  position: relative;
+  width: 300px;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+}
+
+.card.hovercard img {
+  width: 300px;
+  height: 200px;
+}
+
+.card.hovercard .avatar {
+  position: relative;
+  top: -40px;
+  margin-bottom: -40px;
+}
+
+.card.hovercard .avatar img {
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+  -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+          border-radius: 50%;
+}
+
+.card.hovercard .info {
+  padding: 4px 8px 10px;
+}
+
+.card.hovercard .info .title {
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  color: #3B403F;
+  vertical-align: middle;
+}
+
+.card.hovercard .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.card.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+
+.card.people .card-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  line-height: 29px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+
+
+/*flipper-card*/
+
+.card-flipper {
+  position: relative;
+  float: left;
+  width: 86%;
+  text-align: center;
+}
+
+.card__front,
+.card__back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.card__back .card{
+	background-color: #222222;
+    width:100%;
+    height:65vh;
+    color: white;
+}
+
+.card__front,
+.card__back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transition: -webkit-transform 0.3s;
+          transition: transform 0.3s;
+}
+
+.card__front {
+  background-color: #ff5078;
+}
+
+.card__back {
+  background-color: #222222;
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+  color: white;
+  heught: 60px;
+}
+
+
+.card-flipper.effect__hover{position:relative;}
+.card-flipper.effect__hover:hover .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card-flipper.effect__hover:hover .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+.card-flipper.effect__random.flipped .card__front {
+  -webkit-transform: rotateY(-180deg);
+          transform: rotateY(-180deg);
+}
+
+.card-flipper.effect__random.flipped .card__back {
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0);
+}
+
+
+.card{box-shadow:2px 2px 20px rgba(0,0,0,0.3); border:none; margin-bottom:30px;}
+.card-01 .card-body{position:relative; padding-top:40px;}
+.card-01 .badge-box{position:absolute; top:-20px; left:50%; width:100px; height:100px;margin-left:-50px; text-align:center;}
+.card-01 .badge-box i{background:#DFC717; color:#fff; border-radius:50%;  width:50px; height:50px; line-height:50px; text-align:center; font-size:20px;}
+.card-01.height-fix{height:455px; overflow:hidden;}
+.card-01.height-fix .card-img-top{width:auto!imporat;}
+.card-01.height-fix .card-img-overlay{top:unset; color:#fff;
+    background: -moz-linear-gradient(top, rgba(26,96,111,0) 0%, rgba(26,96,111,0) 1%, rgba(24,87,104,0.91) 31%, rgba(21,65,89,0.91) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(26,96,111,0) 0%,rgba(26,96,111,0) 1%,rgba(24,87,104,0.91) 31%,rgba(21,65,89,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(26,96,111,0) 0%,rgba(26,96,111,0) 1%,rgba(24,87,104,0.91) 31%,rgba(21,65,89,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001a606f', endColorstr='#e8154159',GradientType=0 );
+}
+.card-01.height-fix .fa{color: #fff;font-size: 22px;margin-right: 18px;};
+.card-img-oc{
+	border-radius: 100%;
+	height: 20px;
+	width: 20px;
+}
+#texteActivite {
+	text-align: center; 
+	color: #186382; 
+	font-family: 'Varela Round', sans-serif;
+}
+/*FIN CARTE INDEX ____________________________________________________________________________________*/
+
+
+
+
+
+/*INDEX LISTE -------------------------------------------------------------------*/
+
+ul.liste{
+	list-style-type:none;
+}
+
+/*FIN INDEX LISTE ---------------------------------------------------------------*/
+
+
+
+
+/* TRAIT INDEX ET REGION__________________________________________________________*/
+.trait_dessus 
+{ 
+border-top: 2px solid #186382;
+box-shadow: 2px 3px 5px grey inset;
+border-radius: 20%;
+width : 860px; 
+} 
+
+/* FIN TRAIT INDEX ET REGION________________________________________________________*/
+
+
+                                            /* FIN INDEX.HTML => CSS*/
+
+
+
+
+                                             /* CHALET.HTML => CSS*/
+
+
+/* CHALET BOOTSNIPP GALLERY_____________________________________________________________*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Amiri|Aref+Ruqaa|Cairo|Changa|El+Messiri|Harmattan|Jomhuria|Lateef|Mirza|Rakkas|Lato|Source+Sans+Pro|Ubuntu');
+
+
+#galerieDynamique {
+	margin-top: 10%; 
+	margin-bottom: 10%;
+}
+
+.item {
+/* 	background: #FFF; */
+	margin: 2em;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+	transform: rotate(45deg);
+	position: relative;
+	overflow: hidden;
+	transition: all 0.3s ease-in-out;
+	padding:0;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	margin: 0 auto;
+}
+.item p {
+	position: absolute;
+	transform: rotate(-45deg);
+	top: 30%;
+	left: -20%;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px 20px;
+	width:130%;
+	text-align:center;
+	color: #fff;
+	transition: all 0.3s ease-in-out;
+	
+}
+
+.item:hover {
+	transform: none;
+	transform: scale(1.5);
+	z-index:2;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.item:hover > p {
+	transform: none;
+	top: 0;
+	
+}
+
+
+.image_chalet {
+	width: 100%;
+	height: 100%;
+	transition: 0.3s linear;
+	transform: rotate(-45deg) scale(1.4) 
+
+	
+}
+.item:hover > img {
+	transform: none;
+	
+}
+
+p.ar {
+font-family: 'Rakkas', cursive;
+	font-size:1.1em;
+
+}
+
+
+
+
+body::-webkit-scrollbar
+{
+	width: 0.7em;
+	background-color: #EEE;
+}
+
+body::-webkit-scrollbar-thumb{
+/* 	background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%); */
+	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+/* 	background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); */
+/*   background: linear-gradient(to top, #2193b0, #6dd5ed);  */
+	border-radius:1em;
+}
+
+
+/*FIN CHALET BOOTSNIPP GALLERY__________________________________________________________*/
+
+
+
+                                            /* FIN CHALET.HTML => CSS*/
+                                            
+                                            /* REGION.HTML => CSS*/
+                                            
+/*CAROUSEL --------------------------------------------------------------------------*/   
+.videoStyle {
+	border: 1px solid grey; 
+	box-shadow: 10px 10px 7px #656565;
+}
+                                     
+ #placementCarousel {
+ margin-top: 7%; 
+ margin-bottom: 7%;
+ }                                           
+/* fin CAROUSEL --------------------------------------------------------------------------*/  
+
+/*HISTOIRE //////////////////////////////////////////////////////////////////////////////*/
+#h3Histoire {
+	font-variant: small-caps; 
+	color: #186382; 
+	font-size: 26px; 
+	font-family: 'Varela Round', sans-serif; 
+	text-align: center;
+}
+
+#parHistoire {
+	color: #186382; 
+	font-size: 16px; 
+	font-family: 'Varela Round', sans-serif; 
+	text-align: center;
+}
+#placementHistoire {
+	margin-bottom: 5%;
+	
+}    
+
+/*fin HISTOIRE //////////////////////////////////////////////////////////////////////////////*/
+
+
+
+/*scroll text REGION_______________________________________________________________________*/
+
+
+
+
+#carteScroll1 {
+	font-family: Garamond, serif; 
+	color: white; 
+	background-color:#3B403F;  
+} 
+#scrollShadow1 {
+	border: 1px solid grey; 
+	box-shadow: 10px 10px 7px #656565;
+}
+#carteScroll2 {
+	font-family: Garamond, serif; 
+	color: white; 
+	background-color:#3B403F;  
+}   
+#scrollShadow2 {
+	border: 1px solid grey; 
+	box-shadow: 10px 10px 7px #656565;
+}
+#carteScroll3 {
+	font-family: Garamond, serif; 
+	color: white; 
+	background-color:#3B403F;  
+} 
+#scrollShadow3 {
+	border: 1px solid grey; 
+	box-shadow: 10px 10px 7px #656565;
+}    
+   
+.scrollbar-deep-purple::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.scrollbar-deep-purple::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-deep-purple::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #512da8; }
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.scrollbar-cyan::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #00bcd4; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-dusty-grass::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(330deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%); }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-color: #F5F5F5;
+  border-radius: 10px; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar {
+  width: 12px;
+  background-color: #F5F5F5; }
+
+.scrollbar-ripe-malinka::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background-image: -webkit-linear-gradient(330deg, #f093fb 0%, #f5576c 100%);
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%); }
+
+.bordered-deep-purple::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  border: 1px solid #512da8; }
+
+.bordered-deep-purple::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none; }
+
+.bordered-cyan::-webkit-scrollbar-track {
+  -webkit-box-shadow: none;
+  border: 1px solid #00bcd4; }
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: none; }
+
+.square::-webkit-scrollbar-track {
+  border-radius: 0 !important; }
+
+.square::-webkit-scrollbar-thumb {
+  border-radius: 0 !important; }
+
+.thin::-webkit-scrollbar {
+  width: 6px; }
+
+.example-1 {
+  position: relative;
+  overflow-y: scroll;
+  height: 200px; }
+                
+                
+/*fin scroll text REGION_____________________________________________________________*/
+
+
+                                                  /* FIN REGION.HTML => CSS*/
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  /* FORMULAIRE.HTML => CSS*/
+/*Body du formulaire ________________________________________________________*/                                                 
+#formulaireBody   {                                         
+background-image: url(image/fond.jpg); 
+background-repeat: no-repeat; 
+background-size: 100%;
+}
+#cadreFormulaire {
+	margin: auto; 
+	margin-top: 5%; 
+	margin-bottom: 10%; 
+	border: 2px solid #696969; 
+	border-radius: 2%; 
+	box-shadow:20px 20px 50px 10px grey inset; 
+	font-family:Garamond, serif; 
+	background-color: #FFFAFA;
+}
+#section1label {
+	margin-top: 5%; 
+	color: #0080B0; 
+	padding-left:40%; 
+	font-size: 20px; 
+	font-weight: bold;
+}
+#section2label {
+	margin-top: 5%; 
+	color: #0080B0; 
+	padding-left:40%; 
+	font-size: 20px; 
+	font-weight: bold;
+}
+#section1cadre {
+	margin: auto; 
+	margin-bottom: 5%; 
+	border: 2px solid #2F4F4F; 
+	box-shadow:20px 20px 50px 10px grey;
+	border-radius: 1%; 
+	margin-top: 2%;
+}
+#section2cadre {
+	margin: auto; 
+	margin-bottom: 5%; 
+	border: 2px solid #2F4F4F; 
+	box-shadow:20px 20px 50px 10px grey;
+	border-radius: 1%; 
+	margin-top: 2%;
+}
+
+.parSection {
+	margin-top: 1%; 
+	text-shadow: 0px 1px 3px; 
+	padding-bottom: 2%;
+}
+#parOptions {
+	margin-top: 4%;
+	font-weight: bold;
+	font-size: 18px
+}
+#nomStyle {
+	margin-top: 2%;
+}
+#typeStyle {
+	margin-top: 2%;
+}
+#nuitStyle {
+	margin-top: 2%;
+}
+#dateMargin1 {
+	margin-top: 2%;
+}
+#dateMargin2 {
+	margin-top: 2%;
+}
+#sejourMargin1 {
+	margin-left: 5%;
+}
+#sejourMargin2 {
+	margin-left: 5%;
+}
+#regionMargin1 {
+	margin-left: 5%;
+}
+#regionMargin2 {
+	margin-left: 5%;
+}
+#optionsStyle {
+	margin-bottom: 2%; 
+	margin-top: 3%;
+}
+#prixInput {
+	margin-left: 2%;
+}
+#submitInput {
+	margin-left: 70%; 
+	margin-bottom: 7%; 
+	font-weight: bold;
+}
+/* FIN Body du formulaire ________________________________________________________*/
+                                                  /* FIN FORMULAIRE.HTML => CSS*/
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+
+												 /* FORMULAIREOK.HTML => CSS*/
+
+/*tableau récap __________________________________________________*/
+td, th {
+  padding: 5px 10px;
+  text-align: center;
+  border: 1px solid #0000a0;
+}
+.resultTable {
+  width: 100%;
+}
+
+/*fin tableau récap __________________________________________________*/
+												/* FIN FORMULAIREOK.HTML => CSS*/
+												
+												
+
+
